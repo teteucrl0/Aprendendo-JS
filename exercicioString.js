@@ -7,5 +7,5 @@ document.body.innerHTML += `QUAL O PRIMEIRO INDICE DA LETRA S NO SEU NOME: ${nom
 document.body.innerHTML += `QUAL O ULTIMO INDICE DA LETRA S NO SEU NOME: ${nome.lastIndexOf('s')}<br>`
 document.body.innerHTML += `AS ULTIMAS 3 LETRAS DO SEU NOME: ${nome.slice(-3)}<br>`
 document.body.innerHTML += `AS PALAVRAS DO SEU NOME: ${nome.split(' ', 4)}<br>`
-document.body.innerHTML += `SEU NOME MAIUSCULO: ${nome.toUpperCase()}<br>`
-document.body.innerHTML += `SEU NOME MINUSCULO: ${nome.toLowerCase()}<br>`
+document.body.innerHTML += `SEU NOME COMPLETO MAIUSCULO: ${nome.toUpperCase()}<br>`
+document.body.innerHTML += `SEU NOME COMPLETO MINUSCULO: ${nome.toLowerCase()}<br>`
