@@ -1,0 +1,11 @@
+const data = new Date("2004-08-18 05:40:15");
+console.log("Dia", data.getDate());
+console.log("Mês", data.getMonth() + 1);
+console.log("Ano", data.getFullYear());
+console.log("Hora", data.getHours());
+console.log("Minuto", data.getMinutes());
+console.log("Segundo", data.getSeconds());
+console.log("ms", data.getMilliseconds());
+console.log("Dia da semana", data.getDay());
+console.log(data.toString());
+console.log(data.getDate());
